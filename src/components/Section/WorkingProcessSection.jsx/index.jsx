@@ -8,7 +8,7 @@ export default function WorkingProcessSection({
   data,
 }) {
   return (
-    <div className="container">
+    <div className="container py-3">
       <SectionHeadingStyle2
         sectionTitleUp={sectionTitleUp}
         sectionTitle={sectionTitle}

@@ -9,7 +9,7 @@ import { pageTitle } from '../../helpers/PageTitle';
 
 // Google Maps Embed (Dubai - Business Bay)
 const locationData =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.305908418926!2d55.27196511501133!3d25.20484938388714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682b3f32f3b9%3A0x7d6f3d2a3bb9f913!2sBusiness%20Bay%2C%20Dubai!5e0!3m2!1sen!2sae!4v1687428285000!5m2!1sen!2sae';
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.806660140149!2d55.3864222!3d25.344268000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5b4ad1f84c95%3A0x905e1932b1c879a2!2sAfaq%20Alkhaleej%20Management%20Consultants!5e0!3m2!1sen!2sin!4v1756562059981!5m2!1sen!2sin';
 
 export default function ContactPage() {
   pageTitle('Contact');
@@ -19,7 +19,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <Breadcrumb title="Contact" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Contact" bgUrl="/images/jj.png" />
 
       <Section pt="133" ptLg="75" pb="133" pbLg="75">
         <div className="container">

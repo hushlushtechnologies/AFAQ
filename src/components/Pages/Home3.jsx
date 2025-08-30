@@ -103,33 +103,34 @@ const funfactData = [
   },
 ];
 
-const portfolioData = [
+ const portfolioData = [
   {
     imgUrl: '/images/portfolio_1.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
+    title: 'HushLush Events',
+    projectUrl: '/portfolio/hushlush-events',
   },
   {
     imgUrl: '/images/portfolio_2.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
+    title: 'HushLush Technologies',
+    projectUrl: '/portfolio/hushlush-technologies',
   },
   {
     imgUrl: '/images/portfolio_3.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
+    title: 'HushLush Hospitality',
+    projectUrl: '/portfolio/hushlush-hospitality',
   },
   {
     imgUrl: '/images/portfolio_4.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
+    title: 'Megatron Ventures',
+    projectUrl: '/portfolio/megatron-ventures',
   },
   {
     imgUrl: '/images/portfolio_3.jpeg',
-    title: 'Marketing Web-design',
-    projectUrl: '/portfolio/portfolio-details',
+    title: 'HushLush Innovations',
+    projectUrl: '/portfolio/hushlush-innovations',
   },
 ];
+
 
 const brandData = [
   { imgUrl: '/images/brand_1.svg' },
@@ -323,7 +324,7 @@ export default function Home3() {
         ptLg="73"
         pb="140"
         pbLg="80"
-        style={{ backgroundImage: `url('/images/faq_bg_2.jpeg')` }}
+        style={{ background :  'white' }}
       >
         <PortfolioSectionStyle3
           data={portfolioData}

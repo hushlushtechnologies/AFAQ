@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <footer
       className="cs_footer background-filled text-white"
-      style={{ backgroundImage: 'url("/images/footer_bg.jpeg")' }}
+      style={{ background : 'black' }}
     >
       <div className="container">
         {/* Top Section */}

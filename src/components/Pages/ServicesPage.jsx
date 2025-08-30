@@ -8,39 +8,38 @@ import { pageTitle } from '../../helpers/PageTitle';
 
  const serviceData = [
   {
-    iconUrl: '/images/icons/service_icon_1.svg',
-    title: 'Investment Advisory',
+    iconUrl: "/images/icons/service_icon_1.svg",
+    title: "Investment Advisory",
     subTitle:
-      'Tailored strategies to help investors maximize returns with secure and high-yield opportunities.',
-    imgUrl: '/images/service_1.jpeg',
-    href: '/service/services-details',
+      "Guiding you towards secure and high-yield investments across Dubai’s growing markets.",
+    imgUrl: "/images/service_1.png",
+    // href: "/services/investment-advisory",
   },
   {
-    iconUrl: '/images/icons/service_icon_2.svg',
-    title: 'Business Brokerage',
+    iconUrl: "/images/icons/service_icon_2.svg",
+    title: "Business Brokerage",
     subTitle:
-      'Connecting sellers with verified buyers and investors to ensure smooth business transactions in Dubai.',
-    imgUrl: '/images/service_2.jpeg',
-    href: '/service/services-details',
+      "Connecting buyers and sellers for seamless business sales, acquisitions, and partnerships.",
+    imgUrl: "/images/service_2.png",
+    // href: "/services/business-brokerage",
   },
   {
-    iconUrl: '/images/icons/service_icon_3.svg',
-    title: 'Financial Planning & Assistance',
+    iconUrl: "/images/icons/service_icon_3.svg",
+    title: "Financial Consultancy",
     subTitle:
-      'Personalized financial consultancy for growth planning, wealth management, and funding solutions.',
-    imgUrl: '/images/service_3.jpeg',
-    href: '/service/services-details',
+      "Personalized financial planning and assistance designed to maximize growth and ROI.",
+    imgUrl: "/images/service_3.png",
+    // href: "/services/financial-consultancy",
   },
   {
-    iconUrl: '/images/icons/service_icon_4.svg',
-    title: 'Investment Opportunities',
+    iconUrl: "/images/icons/service_icon_4.svg",
+    title: "Investor Relations",
     subTitle:
-      'Explore ventures such as luxury used cars (6%–8% ROI monthly), aluminium fabrication, and Dubai Financial Market portfolios.',
-    imgUrl: '/images/service_4.jpeg',
-    href: '/service/services-details',
+      "Building trusted connections between investors and verified opportunities in Dubai and GCC.",
+    imgUrl: "/images/service_4.png",
+    // href: "/services/investor-relations",
   },
 ];
-
 
 const brandData = [
   { imgUrl: '/images/brand_1.svg' },
@@ -50,23 +49,23 @@ const brandData = [
   { imgUrl: '/images/brand_5.svg' },
 ];
 
- const testimonialData = [
+   const testimonialData = [
   {
-    imgUrl: '/images/avatar_1.png',
+    imgUrl: '/images/star2.png',
     rating: '5',
     desc: "The team at AFAQ Al Khaleej Management delivered exactly what they promised — verified investments and clear monthly returns. Their process is transparent, and I feel confident expanding my portfolio with them.",
     name: 'Mohammed A.',
     designation: 'Investor in Luxury Cars',
   },
   {
-    imgUrl: '/images/avatar_2.png',
+    imgUrl: '/images/star2.png',
     rating: '4.8',
     desc: "Selling my small manufacturing business in Dubai seemed overwhelming until I partnered with AFAQ. They connected me with serious buyers quickly and handled the entire negotiation professionally.",
     name: 'Sarah K.',
     designation: 'Business Owner (Seller)',
   },
   {
-    imgUrl: '/images/avatar_3.png',
+    imgUrl: '/images/star2.png',
     rating: '4.9',
     desc: "AFAQ isn’t just a consultancy — they’re a bridge between real opportunities and serious investors. Their strong regional network helped us secure a major deal within weeks.",
     name: 'James R.',
@@ -82,7 +81,7 @@ export default function ServicesPage() {
   }, []);
   return (
     <>
-      <Breadcrumb title="Our Services" bgUrl="/images/page_header_1.jpeg" />
+      <Breadcrumb title="Our Services" bgUrl="/images/about (2).png" />
 
       <Section pt="140" ptLg="80" pb="115" pbLg="55">
         <ServiceSectionStyle4

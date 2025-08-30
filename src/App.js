@@ -33,9 +33,9 @@ function App() {
   return (
        
     <Routes>
-      <Route path="/"  >
-        {/* <Route index element={<Home />} /> */}
-        <Route index element={<ComingSoon />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+       
         <Route path="/corporate" element={<Home2 />} />
         <Route path="/finance" element={<Home3 />} />
         <Route path="/business-with-ecommerce" element={<Home6 />} />
