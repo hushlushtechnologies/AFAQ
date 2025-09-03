@@ -82,3 +82,37 @@
   0% { transform: translateX(50%) translateY(0); }
   100% { transform: translateX(50%) translateY(-20px); }
 }
+
+
+.marker {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background: #e63946;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.label {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  max-width: 180px;
+}
+
+.rocket {
+  font-size: 40px;
+  animation: rocketMove 3s infinite alternate ease-in-out;
+}
+
+@keyframes rocketMove {
+  from { transform: translateY(0); }
+  to { transform: translateY(-15px); }
+}
