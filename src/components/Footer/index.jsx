@@ -29,7 +29,7 @@ export default function Footer() {
               Call Us
             </h3>
             <h2 className="text-white fw-medium m-0 cs_fs_22">
-              +971 068850838
+              +971 527094940
             </h2>
           </div>
 

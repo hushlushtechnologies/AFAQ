@@ -12,7 +12,7 @@ function AccordionItem ({ title, desc, isOpen, onClick }){
         <h2 className="cs_accordian_title cs_transition_3 cs_fs_16 fw-medium m-0 cs_pl_25 cs_pt_18 cs_pb_18 cs_pr_35" onClick={onClick}>
           {title}
         </h2>
-        <span className="cs_accordian_toggle" />
+        <span className="cs_accordian_toggle" onClick={onClick} />
       </div>
       <div className="cs_accordian_body"  ref={accordionContentRef}>
         <p className="m-0 cs_pl_25 cs_pr_25 cs_pb_20">{desc}</p>

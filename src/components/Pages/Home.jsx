@@ -133,13 +133,14 @@ const serviceData = [
     name: 'Sarah K.',
     designation: 'Business Owner (Seller)',
   },
-  {
-    imgUrl: '/images/star2.png',
-    rating: '4.9',
-    desc: "AFAQ isn’t just a consultancy — they’re a bridge between real opportunities and serious investors. Their strong regional network helped us secure a major deal within weeks.",
-    name: 'James R.',
-    designation: 'Strategic Partner',
-  },
+{
+  imgUrl: '/images/star2.png',
+  rating: '4.9',
+  desc: "AFAQ isn’t just a consultancy — they’re a bridge between real opportunities and serious investors. Their strong regional network helped us secure a major deal within weeks, and their guidance throughout the process made  smooth .",
+  name: 'James R.',
+  designation: 'Strategic Partner',
+}
+
 ];
 
 const teamData = [
