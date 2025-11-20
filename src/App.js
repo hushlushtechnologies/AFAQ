@@ -28,10 +28,14 @@ import ShopOrderRecived from './components/Pages/shop/ShopOrderRecived';
 import Investments from './components/Pages/Investments';
 import Roadmap from './components/HowItWork';
 import ComingSoon from './components/Pages/Commingsoon';
+import SnowfallEffect from './components/christmas/SnowFall';
+import SantaWaving from './components/christmas/SantaWaving';
 
 function App() {
   return (
-       
+       <>
+       <SnowfallEffect/>
+       <SantaWaving/>
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -71,6 +75,7 @@ function App() {
         <Route index element={<Home5 />} />
       </Route> */}
     </Routes>
+    </>
   );
 }
 

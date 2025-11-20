@@ -48,6 +48,46 @@
 @import 'custom';
 
 
+ .christmas-lights {
+ 
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+.christmas-theme {
+  background-color: #fdf6f6;
+}
+
+.christmas-theme h1, 
+.christmas-theme h2, 
+.christmas-theme h3 {
+  color: #d62828;
+}
+
+.christmas-theme button {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.christmas-theme button:hover {
+  transform: scale(1.05);
+}
+.santa-waving {
+  position: fixed;
+  bottom: 20px;
+  right: 70px;
+  width: 130px;       /* Adjust size as needed (responsive-friendly) */
+  z-index: 9999;
+  pointer-events: none;  /* Prevent blocking clicks */
+  animation: santaFloat 3s ease-in-out infinite; /* Floating animation */
+}
+
+@keyframes santaFloat {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+
 .roadmap-section {
   background-color: #d4a017; /* yellowish background */
   position: relative;
