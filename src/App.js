@@ -28,13 +28,13 @@ import ShopOrderRecived from './components/Pages/shop/ShopOrderRecived';
 import Investments from './components/Pages/Investments';
 import Roadmap from './components/HowItWork';
 import ComingSoon from './components/Pages/Commingsoon';
-import SnowfallEffect from './components/christmas/SnowFall';
+import RamadanGlow from './components/christmas/SnowFall';
 import SantaWaving from './components/christmas/SantaWaving';
 
 function App() {
   return (
        <>
-       <SnowfallEffect/>
+       <RamadanGlow/>
        <SantaWaving/>
     <Routes>
       <Route path="/" element={<Layout />}>
