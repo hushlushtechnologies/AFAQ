@@ -1,7 +1,7 @@
 const SantaWaving = () => {
   return (
     <img
-      src="ramdan.gif" // Update path based on your folder
+      src="ramdan.gif" 
       alt="Santa Waving"
       className="santa-waving"
     />
