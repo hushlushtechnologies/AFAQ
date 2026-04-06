@@ -29,8 +29,8 @@ import SantaWaving from './components/christmas/SantaWaving';
 function App() {
   return (
        <>
-       <RamadanGlow/>
-       <SantaWaving/>
+       {/* <RamadanGlow/>
+       <SantaWaving/> */}
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
