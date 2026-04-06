@@ -69,7 +69,7 @@ export default function Header({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
   <Link className="cs_site_branding" to="/">
-    <img src="/logo.png" alt="Logo" className="img-fluid" style={{ maxWidth: "120px", height: "80px" }} />
+    <img src="/logos.png" alt="Logo" className="img-fluid" style={{ maxWidth: "120px", height: "80px" }} />
   </Link>
   <div className="cs_nav cs_primary_font fw-medium">
     <span
