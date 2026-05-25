@@ -59,7 +59,7 @@ export default function Header({ variant }) {
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>
-              </ul>
+              </ul> 
             </div>
           </div>
         </div>
